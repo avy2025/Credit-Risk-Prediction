@@ -112,8 +112,8 @@ jupyter notebook Credit_Risk_Prediction.ipynb
 ## 👤 Author
 
 **Ranjan Thakur**
-- [GitHub](https://github.com/Ranjan-Thakur) *(Adjust link if needed)*
-- [LinkedIn](https://linkedin.com/in/ranjan-thakur) *(Adjust link if needed)*
+- [GitHub](https://github.com/avy2025) 
+- [LinkedIn](https://www.linkedin.com/in/ranjan-thakur-615b08306/) 
 
 ---
 *Developed with ❤️ for Fintech and Data Science.*
