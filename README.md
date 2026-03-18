@@ -7,6 +7,12 @@
 [![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=flat&logo=pandas&logoColor=white)](https://pandas.pydata.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
+## 💻 Live Prediction UI
+
+Check out the interactive AI prediction dashboard:
+
+![Credit Risk UI Working Example](working_example.png)
+
 ## 🔍 Project Overview
 
 This project implements an end-to-end **Credit Risk Prediction** system designed to help financial institutions minimize losses by identifying high-risk loan applicants. The solution addresses real-world challenges such as **class imbalance** and **business risk optimization**.
@@ -102,9 +108,9 @@ jupyter notebook Credit_Risk_Prediction.ipynb
 
 ## 🛠️ Future Roadmap
 
+- [x] **Deployment:** Real-time prediction API using **FastAPI** with a premium web UI.
 - [ ] **SHAP Explainability:** Detailed local and global feature impact analysis.
 - [ ] **Hyperparameter Ops:** Automated tuning using Optuna or GridSearchCV.
-- [ ] **Deployment:** Create a real-time prediction API using **Streamlit** or **FastAPI**.
 - [ ] **Drift Detection:** Implement monitoring for feature and concept drift.
 
 ---
