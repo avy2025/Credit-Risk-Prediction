@@ -1,0 +1,156 @@
+{
+    "Status": {
+        "type": "categorical",
+        "options": [
+            "A11",
+            "A12",
+            "A13",
+            "A14"
+        ]
+    },
+    "Duration": {
+        "type": "numerical",
+        "min": 4,
+        "max": 72
+    },
+    "CreditHistory": {
+        "type": "categorical",
+        "options": [
+            "A30",
+            "A31",
+            "A32",
+            "A33",
+            "A34"
+        ]
+    },
+    "Purpose": {
+        "type": "categorical",
+        "options": [
+            "A40",
+            "A41",
+            "A410",
+            "A42",
+            "A43",
+            "A44",
+            "A45",
+            "A46",
+            "A48",
+            "A49"
+        ]
+    },
+    "CreditAmount": {
+        "type": "numerical",
+        "min": 250,
+        "max": 18424
+    },
+    "Savings": {
+        "type": "categorical",
+        "options": [
+            "A61",
+            "A62",
+            "A63",
+            "A64",
+            "A65"
+        ]
+    },
+    "Employment": {
+        "type": "categorical",
+        "options": [
+            "A71",
+            "A72",
+            "A73",
+            "A74",
+            "A75"
+        ]
+    },
+    "InstallmentRate": {
+        "type": "numerical",
+        "min": 1,
+        "max": 4
+    },
+    "PersonalStatus": {
+        "type": "categorical",
+        "options": [
+            "A91",
+            "A92",
+            "A93",
+            "A94"
+        ]
+    },
+    "OtherDebtors": {
+        "type": "categorical",
+        "options": [
+            "A101",
+            "A102",
+            "A103"
+        ]
+    },
+    "ResidenceSince": {
+        "type": "numerical",
+        "min": 1,
+        "max": 4
+    },
+    "Property": {
+        "type": "categorical",
+        "options": [
+            "A121",
+            "A122",
+            "A123",
+            "A124"
+        ]
+    },
+    "Age": {
+        "type": "numerical",
+        "min": 19,
+        "max": 75
+    },
+    "OtherInstallmentPlans": {
+        "type": "categorical",
+        "options": [
+            "A141",
+            "A142",
+            "A143"
+        ]
+    },
+    "Housing": {
+        "type": "categorical",
+        "options": [
+            "A151",
+            "A152",
+            "A153"
+        ]
+    },
+    "ExistingCredits": {
+        "type": "numerical",
+        "min": 1,
+        "max": 4
+    },
+    "Job": {
+        "type": "categorical",
+        "options": [
+            "A171",
+            "A172",
+            "A173",
+            "A174"
+        ]
+    },
+    "Dependents": {
+        "type": "numerical",
+        "min": 1,
+        "max": 2
+    },
+    "Telephone": {
+        "type": "categorical",
+        "options": [
+            "A191",
+            "A192"
+        ]
+    },
+    "ForeignWorker": {
+        "type": "categorical",
+        "options": [
+            "A201",
+            "A202"
+        ]
+    }
+}
