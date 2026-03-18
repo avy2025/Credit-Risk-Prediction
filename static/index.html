@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Credit Risk Prediction | AI Analyst</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background-overlay"></div>
+    <main class="container">
+        <header class="hero">
+            <h1>Credit Risk <span class="accent">AI Analysis</span></h1>
+            <p>Predict customer default probability with advanced machine learning.</p>
+        </header>
+
+        <section class="analysis-section">
+            <div class="card glass">
+                <form id="prediction-form" class="grid-form">
+                    <!-- Form fields will be dynamically populated here -->
+                    <div id="form-loader" class="loader">Loading form fields...</div>
+                </form>
+                <div class="form-actions">
+                    <button type="submit" form="prediction-form" id="submit-btn" class="glow-btn">Run AI Prediction</button>
+                </div>
+            </div>
+
+            <div id="result-container" class="card glass hidden result-card">
+                <h2>Analysis Results</h2>
+                <div class="result-content">
+                    <div class="risk-meter">
+                        <div id="meter-fill" class="meter-fill"></div>
+                        <span id="risk-value">0%</span>
+                    </div>
+                    <div class="risk-info">
+                        <p class="label">Classification</p>
+                        <p id="risk-category" class="value">Pending...</p>
+                        <p class="label">Confidence Score</p>
+                        <p id="confidence-score" class="value">0.00%</p>
+                    </div>
+                </div>
+                <button id="reset-btn" class="text-btn">New Application</button>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2026 Credit Risk AI Analyst. Secure Financial Intelligence.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
